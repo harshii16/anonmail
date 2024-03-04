@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnonMail</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="icon" href="/favicon.png" type="image/png" />
+</head>
+
+<body>
+    <a href="/">
+        <h1>AnonMail</h1>
+    </a>
+    <form method="POST" action="/send">
+        <label for="target">Send email to:</label><br>
+        <input type="email" name="target" title="target" required>
+        <br><br>
+        <label for="subject">Subject:</label><br>
+        <input type="text" name="subject" title="subject">
+        <br><br>
+        <label for="body">Email body:</label><br>
+        <textarea name="body" title="body"></textarea required>
+        <br><br>
+        <button type="submit">Send</button>
+    </form>
+    <footer>
+        <p> <a href="#">Support</a> | &copy; Aakash Chaudhary 2020 | <a href="#">About</a></p>
+    </footer>
+</body>
+
+</html>
